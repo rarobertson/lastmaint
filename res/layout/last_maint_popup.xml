@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/last_maint_dialog">
+
+    <TextView
+        android:id="@+id/title_last_maintanence_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Maintanence ?"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/yes_btn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="YES"
+        />
+    <Button
+        android:id="@+id/no_btn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="200dp"
+        android:text="NO"
+        />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/date_desc_btn"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:calendarViewShown="false"
+        android:layout_marginTop="130dp"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:inputType="date"
+    />
+    <Button
+        android:id="@+id/date_picker_icon_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:layout_marginTop="130dp"
+        android:background="@android:drawable/ic_menu_agenda"
+        android:layout_marginLeft="280dp"
+        />
+    <TextView
+        android:id="@+id/milage_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mileage"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/mileage_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:calendarViewShown="false"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_bottom_line"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionDone"
+        />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:text="SAVE"
+        />
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="200dp"
+        android:text="CANCEL"
+        />
+
+</RelativeLayout>
